@@ -1,0 +1,18 @@
+/* Write your CSS here */
+li > * {
+  min-width: 25%;
+  max-width: 25%;
+  padding: 10px;
+}
+li {
+  display: flex;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #cbd5e1;
+}
+li > button {
+  background-color: transparent;
+}
+li > button > img {
+  width: 25px;
+}

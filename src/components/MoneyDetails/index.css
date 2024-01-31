@@ -1,0 +1,56 @@
+/* Write your CSS here */
+.money-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.details {
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid;
+  padding: 10px 15px;
+  width: 100%;
+  margin-right: 30px;
+  max-width: 350px;
+  display: flex;
+  align-items: center;
+}
+.details > img {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
+}
+.details > div > * {
+  padding: 0;
+  margin: 0;
+}
+.balance {
+  background-color: #ecfccb;
+  border-color: #84cc16;
+}
+.income {
+  background-color: #cffafe;
+  border-color: #06b6d4;
+}
+.expenses {
+  background-color: #ede9fe;
+  border-color: #7c3aed;
+}
+@media (max-width: 767px) {
+  .money-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .details {
+    margin-right: 0;
+    max-width: 100%;
+  }
+}
+.h2 {
+  margin-top: 10px !important;
+  font-size: 25px;
+  color: #7e858e;
+}
+.h2 > p {
+  display: inline;
+}
